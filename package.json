@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/ALezhnin87/frontend-project-lvl1.git"
   },
   "author": "Alexandr Lezhnin",
