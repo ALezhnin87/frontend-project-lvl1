@@ -1,0 +1,19 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "brain-games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALezhnin87/frontend-project-lvl1.git"
+  },
+  "author": "Alexandr Lezhnin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALezhnin87/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/ALezhnin87/frontend-project-lvl1#readme"
+}
