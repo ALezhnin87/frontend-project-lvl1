@@ -1,2 +1,8 @@
-install npm ci
-node bin/brain-games.js
+install: # установить зависимости
+	npm ci
+
+brain-games: # запуск
+	node bin/brain-games.js
+
+publish: # публикация игры
+	npm publish --dry-run
