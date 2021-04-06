@@ -2,6 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "brain-games",
+  "type":"module",
   "main": "index.js",
   "bin": {
     "brain-games": "bin/brain-games.js"
