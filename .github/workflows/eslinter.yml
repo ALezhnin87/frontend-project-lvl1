@@ -13,9 +13,9 @@ jobs:
     steps:
     - name: npm install
     #  Install project
-    run: make install
+      run: make install
     
     - name: Run linter
-    run: make lint
+      run: make lint
     
       
