@@ -14,5 +14,4 @@ jobs:
   
       - name: Run linter
         # Run linter
-        run: |
-         make lint
+        run: make lint
