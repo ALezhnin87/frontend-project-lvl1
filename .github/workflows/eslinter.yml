@@ -14,9 +14,7 @@ jobs:
     - name: npm install
     #  Install project
     run: make install
-    # Add environment variables
-    env: 
-    CI: true
+    
     - name: Run linter
     run: make lint
     
