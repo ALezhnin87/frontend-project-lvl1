@@ -10,3 +10,6 @@ publish: # публикация игры
 lint: # запуск eslint
 	npx eslint .
 
+lint-fix: #исправление линтером
+	npx eslint . --fix
+
