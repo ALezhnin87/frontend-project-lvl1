@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import name from '../src/cli.js';
+import runEngine from '../src/index.js';
 
-console.log(`Hello, ${name}!`);
+runEngine();
