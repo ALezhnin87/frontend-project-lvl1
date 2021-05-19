@@ -3,11 +3,11 @@ import readlineSync from 'readline-sync';
 const numberOfRounds = 3;
 
 const runEngine = (gameData) => {
-  console.log('Welcome to the Btain Games!');
+  console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May i have your name? ');
   console.log(`Hello, ${name}!`);
 
-  console.log(gameData.gameRules);
+	console.log(gameData.gameRules);
 
   const playRound = (currentRound) => {
     if (currentRound > numberOfRounds) {
