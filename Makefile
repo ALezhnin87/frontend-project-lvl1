@@ -13,6 +13,6 @@ lint: # запуск eslint
 lint-fix: #исправление линтером
 	npx eslint . --fix
 
-even: #запуск игры "проверка на чётность"
+brain-even: #запуск игры "проверка на чётность"
 	node bin/brain-even.js
 
