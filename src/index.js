@@ -7,7 +7,7 @@ const runEngine = (gameData) => {
   const name = readlineSync.question('May i have your name? ');
   console.log(`Hello, ${name}!`);
 
-	console.log(gameData.gameRules);
+  console.log(gameData.gameRules);
 
   const playRound = (currentRound) => {
     if (currentRound > numberOfRounds) {
