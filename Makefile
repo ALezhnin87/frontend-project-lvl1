@@ -16,3 +16,6 @@ lint-fix: #исправление линтером
 brain-even: #запуск игры "проверка на чётность"
 	node bin/brain-even.js
 
+brain-calc: #Запуск игры "калькулятор"
+	node bin/brain-calc.js
+
