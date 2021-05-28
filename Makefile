@@ -25,3 +25,5 @@ brain-gcd: #Запуск игры "НОД"
 brain-progression: #запуск игры "Арифметическая прогрессия"
 	node bin/brain-progression.js
 
+brain-prime: #запуск игры "простое ли число?
+	node bin/brain-prime.js
