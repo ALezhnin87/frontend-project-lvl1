@@ -19,6 +19,6 @@ brain-even: #запуск игры "проверка на чётность"
 brain-calc: #Запуск игры "калькулятор"
 	node bin/brain-calc.js
 
-brain-jcd: #Запуск игры "НОД"
+brain-gcd: #Запуск игры "НОД"
 	node bin/brain-gcd.js
 
