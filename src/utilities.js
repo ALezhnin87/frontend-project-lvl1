@@ -9,8 +9,18 @@ const getGCD = (num1, num2) => {
   return getGCD(num2, num1 % num2);
 };
 
+const getProgression = (firstElem, delta, amountOfElements) => {
+  const progression = [];
+
+  for (let i = 1; i < amountOfElements; i += 1) {
+    progression.push(firstElem + delta * i - 1);
+  }
+  return progression;
+};
+
 export default {
   getRandomInt,
   isEven,
   getGCD,
+  getProgression,
 };
