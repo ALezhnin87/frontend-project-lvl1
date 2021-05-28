@@ -19,7 +19,7 @@ const calcExpression = (num1, num2, operator) => {
 
 const getGameQuestionAndAnswer = () => {
   const num1 = utilities.getRandomInt(100);
-  const num2 = utilities.getRandomint(100);
+  const num2 = utilities.getRandomInt(100);
   const operator = operators[utilities.getRandomInt(operators.length)];
 
   const question = `${num1} ${operator} ${num2}`;
