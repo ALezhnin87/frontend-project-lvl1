@@ -25,7 +25,7 @@ const runEngine = (gameData) => {
       return playRound(currentRound + 1);
     }
 
-    console.log(`${usrAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
+    console.log(`'${usrAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
     return false;
   };
 
